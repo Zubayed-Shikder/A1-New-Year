@@ -4,7 +4,6 @@
 .banner{
     background-image: url(/resources/Banner\ Image.png);
     background-repeat: no-repeat;
-
     height:600px;
     width: 1320px;
     margin: 50px 140px;
@@ -111,4 +110,65 @@ align-items: center;
     width: 167px;
     height: 56px;
     border: none;
+}
+/* best offer style start from here */
+.best-offer{
+    display: flex;
+}
+.best-offer-img{
+    border-radius: 50%;
+border: 15px solid rgb(255, 0, 0);
+padding: 50px;
+}
+/* holidays sale section style */
+.holiday-sale{
+    text-align: center;
+}
+.title-1{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.holiday-sale-title-2{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    letter-spacing: 0%;
+}
+.holiday-sale-title-2 span{
+    color:rgb(255, 0, 0);
+}
+.holiday-sale-discription{
+color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0%;
+}
+/* best gitf section style */
+.best-gitf-title{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.awesome-gift-title{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+}
+.gift-discription{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.gift-image{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap:25px;
 }

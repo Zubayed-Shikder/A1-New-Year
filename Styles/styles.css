@@ -1,1 +1,27 @@
-/* Style of header start from here */
+/* Style of header(banner)S start from here */
+.banner{
+    background-image: url(/resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+
+    height:600px;
+    width: 1320px;
+    margin: 50px 140px;
+    font-family: "Merriweather", serif;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family: Merriweather;
+    padding: 170px 0px;
+
+}
+.new-year-head{
+    
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.party-celebration{
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0px;
+}

@@ -1,6 +1,10 @@
 /* common stylee */
+section{
+    padding: 0;
+    margin:60px 0;
+}
 main{
-    margin:140px;
+    margin:140px 60px;
 }
 
 /* Style of banner section start from here */
@@ -9,22 +13,23 @@ main{
     background-repeat: no-repeat;
     height:600px;
     width: 1320px;
-    margin: 50px 140px;
     font-family: "Merriweather", serif;
     color:rgb(255, 255, 255);
     text-align: center;
-    padding: 170px 0px;
 
+}
+.banner-content{
+    padding-top: 100px;
 }
 .new-year-head{
     
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 400;
     margin-bottom: 16px;
 }
 
 .party-celebration{
-    font-size: 72px;
+    font-size: 80px;
     font-weight: 900;
     margin: 0px;
 }
@@ -33,6 +38,7 @@ main{
     align-items: center;
     font-family: "Inter", serif;
     display: block;
+    justify-content: center;
 }
 .off-section-title{
     color: rgb(255, 0, 0);
@@ -52,10 +58,10 @@ main{
     font-weight: 700;
     text-align: center;
 }
-/* .off-section-img{
-    display: block;
-align-items: center;
-} */
+.off-section-img{
+    display: flex;
+    justify-content:center;
+}
 
 /* Mid night party section style from here */
 .midnight-party{
@@ -65,6 +71,12 @@ align-items: center;
     height: 600px;
     border-radius: 16px;
     display: flex;
+    justify-content:space-evenly;
+    padding: 65px;
+}
+.midnight-party-greet{
+    width: 50%;
+    padding: 0px;
 }
 .midnight-party-welcome{
     color: rgb(255, 255, 255);
@@ -98,6 +110,7 @@ align-items: center;
     font-weight: 600;
     line-height: 56px;
     text-align: center;
+    padding: 100px;
 }
 .event-details span{
     color: rgb(255, 0, 0);
@@ -117,11 +130,48 @@ align-items: center;
 /* best offer style start from here */
 .best-offer{
     display: flex;
+    justify-content: space-around;
+}
+.best-offer-detail{
+    width: 40%;
+}
+.best-offer-d2{
+    margin: 30px;
+}
+.best-offer-heading{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+}
+.best-offer-coming{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 50px;
+    font-weight: 900;
+}
+.best-of-content{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
 }
 .best-offer-img{
     border-radius: 50%;
-border: 15px solid rgb(255, 0, 0);
-padding: 50px;
+    border: 15px solid rgb(255, 0, 0);
+    padding: 50px;
+}
+.h-new-year{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.newyear-content{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
 }
 /* holidays sale section style */
 .holiday-sale{
@@ -152,11 +202,13 @@ letter-spacing: 0%;
 }
 
 /* image discount 50% style */
+
 .discout-img{
     background-image:url(../resources/Rectangle\ 2.png);
     background-repeat: no-repeat;
     background-position: bottom;
     display: flex;
+    justify-content: space-around;
 }
 .icon-off{
 background-image: url(../resources/Rectangle\ 1.png);
@@ -194,6 +246,9 @@ background-repeat: no-repeat;
     background: rgba(255, 0, 0, 0.05);
     text-align: center;
 }
+.subscribtion-detail{
+    padding-top: 80px;
+}
 .subs-title{
     color: rgb(7, 2, 17);
     font-family: Merriweather;
@@ -207,7 +262,7 @@ background-repeat: no-repeat;
     font-weight: 400;
 }
 .subscribe-btn{
-    padding: 0px;
+    padding-bottom: 60px;
     margin: 0px;
 }
 .subs-email{

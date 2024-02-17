@@ -147,6 +147,19 @@ font-weight: 500;
 line-height: 32px;
 letter-spacing: 0%;
 }
+
+/* image discount 50% style */
+.discout-img{
+    background-image:url(/resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+}
+.icon-off{
+background-image: url(/resources/Rectangle\ 1.png);
+background-repeat: no-repeat;
+}
+
 /* best gitf section style */
 .best-gitf-title{
     color: rgb(255, 0, 0);
@@ -171,4 +184,71 @@ letter-spacing: 0%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap:25px;
+}
+/* Subscribe and newslatter option style */
+.subscribe-option{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+}
+.subs-title{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.subs-discription{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.subscribe-btn{
+    padding: 0px;
+    margin: 0px;
+}
+.subs-email{
+    width: 440px;
+    height: 70px;
+    border-radius: 50px 0px 0px 50px;
+    background: rgb(255, 255, 255);
+    margin: 0px;
+    border: none;
+    text-align: center;
+}
+.subs-btn{
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    width: 210px;
+    height: 70px;
+    margin: 0px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+/* footer section style */
+footer{
+    width: auto;
+height: 600px;
+background: rgb(7, 2, 17);
+padding: 120px 140px;
+}
+.footer-details{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin: 20px;
+
+}
+.location-contact, .copyright-unsubs{
+    display: flex;
+    justify-content: space-between;
+}
+.social-link{
+    text-align: center;
 }
